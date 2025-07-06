@@ -1,10 +1,10 @@
-# React + Vite
 
-# ToDoList-With-Filter-And-Search
+# Lista de Tarefas com Filtro e Pesquisa
+(React + Vite)
 
 Projeto em React baseado em um tutorial do canal *Hora de Codar*.
 
-Lista de tarefas interativa com:
+Lista de tarefas com:
 - Filtros por categoria
 - Busca por texto
 - Marcação de tarefas como concluídas
@@ -13,7 +13,7 @@ Lista de tarefas interativa com:
 
 ![Preview do projeto](public/Screenshot.png)
 
-## Tecnologias usadas
+## ⚙️ Tecnologias usadas
 - React
 - CSS
 - JavaScript
