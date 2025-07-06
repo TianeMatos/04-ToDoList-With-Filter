@@ -1,0 +1,39 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter p {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.formFilterBox select {
+  width: fit-content;
+  padding: .5rem;
+}
+
+.formFilterBox select option {
+  padding: .3rem .5rem;
+}
+
+
+.sortButtons {
+  margin-left: .3rem;
+}
+
+.sortButtons button {
+  background-color: #4b4befc4;
+  border: none;
+  border-radius: .4rem;
+  font-size: 1rem;
+  padding: .6rem;
+  color: #F9F9F9;
+  margin-right: 1rem;
+  transition: all 0.25s;
+}
+
+.sortButtons button:hover {
+  background-color: #4b4bef;
+  cursor: pointer;
+}

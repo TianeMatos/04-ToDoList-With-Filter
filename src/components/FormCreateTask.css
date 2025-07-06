@@ -1,0 +1,67 @@
+.formCreateTask>form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form input, form select {
+  padding: .5rem .8rem;
+  font-size: .9rem;
+  background-color: #cbd5de;
+  border: 1px solid transparent;
+  border-radius: .8rem;
+  color: #333;
+  text-transform: capitalize;
+}
+
+form input:focus-visible {
+  outline-offset: 1.5px;
+  outline-color: #424242;
+}
+
+form input::placeholder {
+  color: #626262;
+}
+
+select,::picker(select) {
+  appearance: base-select;
+}
+
+::picker(select) {
+  border: none;
+  border-radius: .8rem;
+}
+
+form select option {
+  padding: .3rem;
+  border-bottom: 1px solid #9d9d9d;
+}
+
+form select option:hover {
+  background-color: #8bc9ff;
+}
+
+form select::picker-icon {
+  transition: 0.4s rotate;
+}
+
+form select:open::picker-icon {
+  rotate: 180deg;
+}
+
+form button {
+  background-color: #3b8948;
+  border: 1px solid transparent;
+  border-radius: .4rem;
+  color: #F9F9F9;
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  transition: all 0.25s;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #39a24b;
+}

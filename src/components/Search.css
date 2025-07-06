@@ -1,0 +1,15 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.search input {
+  padding: .5rem .8rem;
+  font-size: .9rem;
+  background-color: #cbd5de;
+  border: 1px solid transparent;
+  border-radius: .8rem;
+  color: #333;
+  text-transform: capitalize;
+}
