@@ -11,7 +11,7 @@ Lista de tarefas interativa com:
 
 ## 🖼️ Preview do Projeto
 
-![Preview do projeto]("public/Screenshot.png")
+![Preview do projeto](public/Screenshot.png)
 
 ## Tecnologias usadas
 - React
